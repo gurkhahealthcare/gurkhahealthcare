@@ -13,7 +13,7 @@ const HomePage = () => {
     <div className="min-h-screen bg-white dark:bg-slate-950">
       {/* Hero Section - content left, hero image right */}
       <section className="relative min-h-0 lg:min-h-[85vh] flex items-center overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 md:py-20 lg:py-24 w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 sm:py-7 md:py-10 lg:py-12 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
             {/* Left: Content - centered on mobile */}
             <div className="order-2 lg:order-1 text-center lg:text-left">
