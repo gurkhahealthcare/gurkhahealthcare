@@ -69,7 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="w-full min-h-screen flex flex-col bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50 overflow-x-hidden transition-colors duration-300">
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem storageKey="theme" suppressHydrationWarning>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem storageKey="theme">
           <ScrollToTop />
           <Header />
           <main className="flex-grow w-full">{children}</main>
