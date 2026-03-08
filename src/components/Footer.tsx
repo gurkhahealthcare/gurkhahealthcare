@@ -1,0 +1,162 @@
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { Facebook, Instagram, Shield } from 'lucide-react';
+
+const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
+    return (
+        <footer className="bg-white/70 dark:bg-slate-950/70 backdrop-blur-lg border-t border-white/10 dark:border-slate-800/50 text-slate-900 dark:text-slate-50 transition-all duration-300">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                {/* 4-Column Layout for Desktop, Single Column on Mobile */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-center md:text-left">
+                    {/* Column 1: Brand & Mission */}
+                    <div className="group text-center md:text-left">
+                        <div className="flex flex-col items-center md:flex-row md:items-start gap-3 mb-4">
+                            <Image
+                                src="/logonew.png"
+                                alt="Gurkha Health Services Ltd logo"
+                                width={260}
+                                height={80}
+                                className="h-12 sm:h-14 w-auto object-contain"
+                            />
+                            <div className="flex flex-col leading-tight items-center md:items-start">
+                                <span className="text-base font-extrabold tracking-tight text-slate-900 dark:text-slate-50">
+                                    Gurkha Health Services Ltd
+                                </span>
+                                <span className="text-xs font-semibold tracking-wide text-slate-600 dark:text-slate-300">
+                                    Here when you need us most
+                                </span>
+                            </div>
+                        </div>
+                        <p className="text-sm text-slate-900 dark:text-white leading-relaxed">
+                            Providing compassionate care for independent living with professional support and dedicated service excellence.
+                        </p>
+                        {/* Social links */}
+                        <div className="mt-4 flex justify-center md:justify-start gap-4">
+                            <a
+                                href="https://www.facebook.com/profile.php?id=61585860863171"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Visit our Facebook page"
+                                className="inline-flex items-center justify-center w-9 h-9 rounded-full border border-slate-200 dark:border-slate-700 text-[#1877F2] hover:text-[#0f5ec2] hover:border-[#1877F2] transition-colors duration-200"
+                            >
+                                <Facebook className="w-5 h-5" />
+                            </a>
+                            <a
+                                href="https://www.instagram.com/gurkhahealthservices?igsh=MW85eG1zbzliNmExMA%3D%3D&utm_source=qr"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Visit our Instagram profile"
+                                className="inline-flex items-center justify-center w-9 h-9 rounded-full border border-slate-200 dark:border-slate-700 text-[#E4405F] hover:text-[#cc2e4a] hover:border-[#E4405F] transition-colors duration-200"
+                            >
+                                <Instagram className="w-5 h-5" />
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Column 2: Quick Links */}
+                    <div className="text-center md:text-left">
+                        <h4 className="text-lg font-semibold mb-4 text-slate-900 dark:text-white">Quick Links</h4>
+                        <ul className="space-y-2 text-sm flex flex-col items-center md:items-start">
+                            <li>
+                                <Link href="/" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/about" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                    About
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/services" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                    Services
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/careers" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                    Careers
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/contact" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                    Contact
+                                </Link>
+                            </li>
+                        </ul>
+                        <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
+                            <Link
+                                href="/admin"
+                                className="inline-flex items-center gap-2 text-xs font-medium text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition-colors duration-300"
+                            >
+                                <Shield className="w-3.5 h-3.5" />
+                                Admin
+                            </Link>
+                        </div>
+                    </div>
+
+                    {/* Column 3: Contact Information */}
+                    <div className="text-center md:text-left">
+                        <h4 className="text-lg font-semibold mb-4 text-slate-900 dark:text-white">Contact</h4>
+                        <div className="text-sm space-y-3">
+                            <div>
+                                <p className="font-semibold text-slate-900 dark:text-white">Phone:</p>
+                                <p>
+                                    <a href="tel:07721689515" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                        07721689515
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="tel:07345363901" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                        07345363901
+                                    </a>
+                                </p>
+                            </div>
+                            <div>
+                                <p className="font-semibold text-slate-900 dark:text-white">Email:</p>
+                                <p>
+                                    <a
+                                        href="mailto:info@gurkhahealth.co.uk"
+                                        className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium"
+                                    >
+                                        info@gurkhahealth.co.uk
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Column 4: Legal & Hours */}
+                    <div className="text-center md:text-left">
+                        <h4 className="text-lg font-semibold mb-4 text-slate-900 dark:text-white">Business Hours</h4>
+                        <div className="text-sm space-y-3">
+                            <p>
+                                <span className="font-semibold text-slate-900 dark:text-white">Mon–Fri:</span> <span className="text-slate-900 dark:text-white">9am–5pm</span>
+                            </p>
+                            <p className="text-slate-700 dark:text-white text-xs">
+                                Closed on Saturdays, Sundays & Public Holidays
+                            </p>
+                            <hr className="my-4 border-slate-200 dark:border-slate-800" />
+                            <Link
+                                href="/privacy-policy"
+                                className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 text-xs font-medium"
+                            >
+                                Privacy Policy
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bottom Bar */}
+                <div className="border-t border-slate-200 dark:border-slate-800 pt-8 text-center text-sm text-slate-700 dark:text-white space-y-1">
+                    <p className="font-medium">Built by Arjun Pangeni</p>
+                    <p>&copy; {currentYear} Gurkha Health & Services. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;
