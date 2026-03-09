@@ -151,8 +151,8 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="border-t border-slate-200 dark:border-slate-800 pt-8 text-center text-sm text-slate-700 dark:text-white space-y-1">
-                    <p className="font-medium">Built by Arjun Pangeni</p>
-                    <p>&copy; {currentYear} Gurkha Health & Services. All rights reserved.</p>
+                    <p className="font-medium">Built by <a href="https://linktr.ee/arjunpangeni">Arjun pangeni</a></p>
+                    <p>&copy; {currentYear} Gurkha Health Services Ltd. All rights reserved.</p>
                 </div>
             </div>
         </footer>

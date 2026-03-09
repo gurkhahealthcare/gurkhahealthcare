@@ -30,7 +30,7 @@ const teamMembers = [
   },
   {
     name: 'Yvonne Mnyani',
-    role: 'HR Manager & advisor',
+    role: 'HR Manager & Advisor',
     photo: '/yvone.webp',
   },
 ];

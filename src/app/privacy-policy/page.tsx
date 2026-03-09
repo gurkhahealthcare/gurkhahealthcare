@@ -132,7 +132,9 @@ export default function PrivacyPolicyPage() {
                 </a>
               </p>
               <p>
-                <span className="font-semibold">Address:</span> Reading, United Kingdom
+                <span className="font-semibold">Address:</span> 514 Oxford Road
+Reading
+RG30 1EG, UK
               </p>
             </div>
         
