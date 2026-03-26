@@ -14,7 +14,7 @@ const Footer = () => {
                     {/* Column 1: Brand & Mission */}
                     <div className="group text-center md:text-left">
                         <div className="inline-flex flex-col items-center md:items-start rounded-2xl px-4 py-3 bg-[#6a486f] border border-[#e7a99a]/30 mb-4">
-                          <div className="flex flex-col items-center md:flex-row md:items-start gap-3">
+                          <div className="flex  items-center md:flex-row md:items-start gap-3">
                             <Image
                                 src="/logonew.png"
                                 alt="Gurkha Health Services Ltd logo"

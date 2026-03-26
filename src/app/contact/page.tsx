@@ -112,9 +112,7 @@ const ContactPage = () => {
                                     Gurkha Health
                                 </h3>
                                 <p className="text-slate-900 dark:text-white leading-relaxed">
-                                    514 Oxford Road<br />
                                     Reading<br />
-                                    RG30 1EG<br />
                                     United Kingdom
                                 </p>
                             </div>
