@@ -8,11 +8,7 @@ export const metadata = {
 };
 
 const teamMembers = [
-  {
-    name: 'David Gurung',
-    role: 'Director',
-    photo: '/david.webp',
-  },
+
   {
     name: 'Anns Basnet',
     role: 'Founder and Managing Director',
@@ -20,17 +16,12 @@ const teamMembers = [
   },
   {
     name: 'Katarzyna Labudek',
-    role: 'Co-Founder',
+    role: 'Director & Co-Founder',
     photo: '/katarzyna.webp',
   },
   {
-    name: 'Man B Gurung',
-    role: 'Chairman',
-    photo: '/mangurung.webp',
-  },
-  {
     name: 'Yvonne Mnyani',
-    role: 'HR Manager & Advisor',
+    role: 'External HR & Business Advisor',
     photo: '/yvone.webp',
   },
 ];
@@ -130,11 +121,11 @@ const AboutPage = () => {
           <div className="max-w-3xl mx-auto">
             <div className="relative w-full h-52 sm:h-64 md:h-72 lg:h-80 xl:h-96 rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800">
               <Image
-                src="/team.webp"
+                src="/team1.webp"
                 alt="Gurkha Health Services Ltd. team"
                 fill
                 sizes="(max-width: 768px) 100vw, 80vw"
-                className="object-cover object-center"
+                className="object-contain object-center"
                 priority
               />
             </div>
@@ -148,9 +139,11 @@ const AboutPage = () => {
             Dedicated team committed to delivering excellent care
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 items-stretch">
+          <div className="flex flex-wrap justify-center gap-6">
             {teamMembers.map((member) => (
-              <TeamMember key={member.name} member={member} />
+              <div key={member.name} className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] max-w-sm">
+                <TeamMember member={member} />
+              </div>
             ))}
           </div>
         </section>

@@ -2,18 +2,18 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-brand-300: #ffc4e0;
-  --color-brand-400: #ff8fcc;
-  --color-brand-500: #f059b2;
-  --color-brand-600: #d6489e;
+  --color-brand-300: #f7c8bc;
+  --color-brand-400: #efb2a5;
+  --color-brand-500: #e7a99a;
+  --color-brand-600: #cf8b7a;
 }
 
 @layer base {
   :root {
-    --brand-primary: #f059b2;
-    --brand-light: #ff8fcc;
+    --brand-primary: #e7a99a;
+    --brand-light: #f7c8bc;
     --brand: var(--brand-primary);
-    --accent-gradient: linear-gradient(135deg, #f059b2 0%, #ff8fcc 100%);
+    --accent-gradient: linear-gradient(135deg, #cf8b7a 0%, #efb2a5 100%);
     --glass-light: rgba(255, 255, 255, 0.85);
     --glass-dark: rgba(15, 15, 25, 0.9);
     --border-light: rgba(0, 0, 0, 0.06);
@@ -118,5 +118,4 @@
     animation: fadeIn 300ms ease-out;
   }
 }
-
 

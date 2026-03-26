@@ -13,7 +13,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ member }) => {
   const { name, role, photo } = member;
   return (
     <article className="h-full flex flex-col text-center rounded-3xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-500/30 dark:hover:border-brand-400/30 transition-all duration-300">
-      <div className="relative w-full aspect-[4/5] flex-shrink-0 overflow-hidden bg-slate-100 dark:bg-slate-800/50 group rounded-t-3xl">
+      <div className="relative w-full aspect-[4/5] flex-shrink-0 overflow-hidden bg-slate-100 dark:bg-slate-800/50 group rounded-t-3xl flex items-center justify-center">
         <Image
           src={photo}
           alt={`${name}'s photo`}

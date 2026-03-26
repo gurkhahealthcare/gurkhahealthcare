@@ -24,24 +24,24 @@ const Header: React.FC = () => {
     ];
 
     return (
-        <header className="sticky top-0 z-50 bg-white/40 dark:bg-slate-900/40 backdrop-blur-xl border-b border-white/20 dark:border-slate-800/40">
+        <header className="sticky top-0 z-50 bg-[#6a486f]/95 dark:bg-[#4f3555]/95 backdrop-blur-xl border-b border-[#e7a99a]/25 dark:border-[#e7a99a]/20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center py-2 sm:py-3">
                     {/* Logo + text */}
-                    <Link href="/" className="flex items-center gap-3 sm:gap-4 group min-w-0">
+                    <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
                         <Image
                             src="/logonew.png"
                             alt="Gurkha Health Services Ltd logo"
-                            width={260}
-                            height={80}
-                            className="h-11 sm:h-20 w-auto object-contain shrink-0"
+                            width={68}
+                            height={68}
+                            className="h-11 sm:h-14 w-auto object-contain shrink-0"
                             priority
                         />
                         <div className="flex flex-col leading-tight min-w-0">
-                            <span className="text-sm xs:text-base sm:text-xl font-extrabold tracking-tight text-slate-900 dark:text-slate-50 truncate">
-                                Gurkha Health Services Ltd
+                            <span className="text-sm xs:text-base sm:text-xl font-semibold tracking-tight text-[rgba(238,162,143,1)] truncate">
+                                Gurkha Health
                             </span>
-                            <span className="text-[10px] xs:text-[11px] sm:text-xs font-semibold tracking-wide text-slate-600 dark:text-slate-300 leading-snug break-words">
+                            <span className="text-[10px] xs:text-[11px] sm:text-xs font-semibold tracking-wide text-white leading-snug break-words">
                                 Here when you need us most
                             </span>
                         </div>
@@ -57,8 +57,8 @@ const Header: React.FC = () => {
                                     href={link.href}
                                     className={`site-nav-link transition-colors border-b-2 pb-1 ${
                                         isActive
-                                            ? 'border-brand-500 text-brand-600 dark:text-brand-400'
-                                            : 'border-transparent text-black dark:text-white hover:text-brand-500 dark:hover:text-brand-400 hover:border-brand-300/70'
+                                            ? 'border-brand-300 text-brand-300'
+                                            : 'border-transparent text-[#f7ece8] hover:text-brand-300 hover:border-brand-300/70'
                                     }`}
                                 >
                                     {link.name}
@@ -67,15 +67,15 @@ const Header: React.FC = () => {
                         })}
 
                         {/* Theme Toggle */}
-                        <ThemeToggle className="p-2 rounded-full bg-black/5 dark:bg-white/5 hover:opacity-90 transition-all duration-200" />
+                        <ThemeToggle className="p-2 rounded-full bg-white/15 hover:bg-white/20 text-white transition-all duration-200" />
                     </nav>
 
                     {/* Mobile Menu Button & Theme Toggle */}
                     <div className="md:hidden flex items-center gap-3">
-                        <ThemeToggle className="p-2 rounded-full bg-black/5 dark:bg-white/5 hover:opacity-90 transition-all duration-200" />
+                        <ThemeToggle className="p-2 rounded-full bg-white/15 hover:bg-white/20 text-white transition-all duration-200" />
                         <button
                             onClick={() => setIsMenuOpen(true)}
-                            className="p-2 text-black dark:text-white hover:text-accent transition-colors"
+                            className="p-2 text-[#f7ece8] hover:text-brand-300 transition-colors"
                             aria-label="Open menu"
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -17,15 +17,15 @@ const Footer = () => {
                             <Image
                                 src="/logonew.png"
                                 alt="Gurkha Health Services Ltd logo"
-                                width={260}
-                                height={80}
-                                className="h-12 sm:h-14 w-auto object-contain"
+                                width={68}
+                                height={68}
+                                className="h-11 sm:h-12 w-auto object-contain"
                             />
                             <div className="flex flex-col leading-tight items-center md:items-start">
-                                <span className="text-base font-extrabold tracking-tight text-slate-900 dark:text-slate-50">
-                                    Gurkha Health Services Ltd
+                                <span className="text-base font-semibold tracking-tight text-[rgba(238,162,143,1)]">
+                                    Gurkha Health
                                 </span>
-                                <span className="text-xs font-semibold tracking-wide text-slate-600 dark:text-slate-300">
+                                <span className="text-xs font-semibold tracking-wide text-white">
                                     Here when you need us most
                                 </span>
                             </div>
