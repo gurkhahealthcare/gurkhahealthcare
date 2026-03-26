@@ -13,7 +13,8 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-center md:text-left">
                     {/* Column 1: Brand & Mission */}
                     <div className="group text-center md:text-left">
-                        <div className="flex flex-col items-center md:flex-row md:items-start gap-3 mb-4">
+                        <div className="inline-flex flex-col items-center md:items-start rounded-2xl px-4 py-3 bg-[#6a486f] border border-[#e7a99a]/30 mb-4">
+                          <div className="flex flex-col items-center md:flex-row md:items-start gap-3">
                             <Image
                                 src="/logonew.png"
                                 alt="Gurkha Health Services Ltd logo"
@@ -29,6 +30,7 @@ const Footer = () => {
                                     Here when you need us most
                                 </span>
                             </div>
+                          </div>
                         </div>
                         <p className="text-sm text-slate-900 dark:text-white leading-relaxed">
                             Providing compassionate care for independent living with professional support and dedicated service excellence.
@@ -45,7 +47,7 @@ const Footer = () => {
                                 <Facebook className="w-5 h-5" />
                             </a>
                             <a
-                                href="https://www.instagram.com/gurkhahealthservices?igsh=MW85eG1zbzliNmExMA%3D%3D&utm_source=qr"
+                                href="https://www.instagram.com/gurkhahealth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Visit our Instagram profile"
@@ -152,7 +154,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="border-t border-slate-200 dark:border-slate-800 pt-8 text-center text-sm text-slate-700 dark:text-white space-y-1">
                     <p className="font-medium">Built by <a href="https://linktr.ee/arjunpangeni">Arjun pangeni</a></p>
-                    <p>&copy; {currentYear} Gurkha Health Services Ltd. All rights reserved.</p>
+                    <p>&copy; {currentYear} Gurkha Health. All rights reserved.</p>
                 </div>
             </div>
         </footer>

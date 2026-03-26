@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { MapPin, PoundSterling, Clock, ArrowRight } from 'lucide-react';
 
 export const metadata = {
-  title: 'Careers | Gurkha Health & Services',
+  title: 'Careers | Gurkha Health ',
   description: 'Join our team and make a difference in healthcare',
 };
 
@@ -29,7 +29,7 @@ export default async function CareersPage() {
         {/* Header */}
         <section className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-rose-500 via-brand-500 to-red-500 dark:from-rose-300 dark:via-brand-400 dark:to-red-400 bg-clip-text text-transparent mb-4">
-            Careers at Gurkha Health & Services
+            Careers at Gurkha Health 
           </h1>
           <p className="text-lg sm:text-xl text-slate-800 dark:text-white max-w-2xl mx-auto">
             Join our team and help us provide exceptional care. We&apos;re looking for people who are kind, reliable, and
@@ -122,7 +122,7 @@ export default async function CareersPage() {
           <section className="mt-16 bg-gradient-to-r from-red-500 to-[var(--brand)] hover:from-red-600 hover:to-[var(--brand)] text-white rounded-xl p-8 text-center transition-all duration-300 transform hover:shadow-2xl">
             <h2 className="text-3xl font-bold mb-4">Interested in Working With Us?</h2>
             <p className="text-lg mb-6 max-w-2xl mx-auto">
-              Even though we don't have current vacancies, we'd love to hear from you. Contact us to express your interest.
+              Even though we don&apos;t have current vacancies, we&apos;d love to hear from you. Contact us to express your interest.
             </p>
             <Link
               href="/contact"

@@ -29,14 +29,7 @@ interface ServiceWithIcon extends Service {
 
 // hard‑coded list of available services with short descriptions, icons and colors
 const SERVICES: ServiceWithIcon[] = [
-  {
-    name: 'Personal Care',
-    description:
-      'Assistance with bathing, dressing, grooming and other daily activities tailored to each individual.',
-    icon: HeartHandshake,
-    tag: 'Daily support',
-    iconColor: 'rose',
-  },
+
 
   {
     name: 'Overnight Care',

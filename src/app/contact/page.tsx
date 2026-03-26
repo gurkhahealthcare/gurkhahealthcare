@@ -2,8 +2,8 @@ import React from 'react';
 import { Phone, Mail, Clock, MapPin, ArrowRight, Facebook, Instagram } from 'lucide-react';
 
 export const metadata = {
-  title: 'Contact Us | Reading Care Provider | Gurkha Health & Services',
-  description: 'Get in touch with Gurkha Health & Services in Reading. Phone, email, address, and contact form available.',
+  title: 'Contact Us | Reading Care Provider | Gurkha Health ',
+  description: 'Get in touch with Gurkha Health in Reading. Phone, email, address, and contact form available.',
 };
 
 const ContactPage = () => {
@@ -66,7 +66,7 @@ const ContactPage = () => {
                                 <Facebook className="w-5 h-5" />
                             </a>
                             <a
-                                href="https://www.instagram.com/gurkhahealthservices?igsh=MW85eG1zbzliNmExMA%3D%3D&utm_source=qr"
+                                href="https://www.instagram.com/gurkhahealth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Visit our Instagram profile"
@@ -109,7 +109,7 @@ const ContactPage = () => {
                         <div className="space-y-4">
                             <div>
                                 <h3 className="text-2xl font-bold text-brand-500 dark:text-brand-400 mb-2">
-                                    Gurkha Health & Services
+                                    Gurkha Health
                                 </h3>
                                 <p className="text-slate-900 dark:text-white leading-relaxed">
                                     514 Oxford Road<br />

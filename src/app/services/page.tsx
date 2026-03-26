@@ -10,7 +10,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-base sm:text-lg text-slate-800 dark:text-white max-w-3xl mx-auto mb-6">
             We offer a wide range of person-centred care and support services designed to help you or your loved ones
-            live safely and independently. From daily personal care and household help to complex clinical support,
+            live safely and independently. From Health Appointments and household help to Prescription Pick‑up,
             overnight care, and social activities—our team is here to tailor support to your needs.
           </p>
       
