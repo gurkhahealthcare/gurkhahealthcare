@@ -91,8 +91,8 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
             {[
               {
-                title: 'Personal Care',
-                description: 'Professional and compassionate personal care support tailored to your needs',
+                title: 'Home life',
+                description: 'Assistance with everyday chores such as laundry, gardening and administration.',
                 icon: '👤',
               },
               {
