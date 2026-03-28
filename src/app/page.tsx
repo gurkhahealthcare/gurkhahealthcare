@@ -2,6 +2,21 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ServiceArea from '@/components/ServiceArea';
+import type { LucideIcon } from 'lucide-react';
+import {
+  MoonStar,
+  ShoppingBag,
+  Sparkles,
+  UtensilsCrossed,
+  Home,
+  Stethoscope,
+  Pill,
+  SunMedium,
+  Plane,
+  Building2,
+  ClipboardList,
+  Users,
+} from 'lucide-react';
 
 export const metadata = {
   title: 'Home | Gurkha Health & Services',
@@ -91,14 +106,14 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
             {[
               {
-                title: 'Personal Care',
-                description: 'Professional and compassionate personal care support tailored to your needs',
-                icon: '👤',
+                title: 'Overnight Care',
+                description: 'Night‑time support to ensure safety and comfort for those who need assistance around the clock.',
+                icon: '🌙',
               },
               {
-                title: 'Health Support',
-                description: 'Specialized care for complex health needs with experienced professionals',
-                icon: '⚕️',
+                title: 'Cleaning',
+                description: 'Light housekeeping to keep living spaces tidy and hygienic.',
+                icon: '✨`',
               },
               {
                 title: 'Lifestyle Support',

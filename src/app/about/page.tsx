@@ -3,8 +3,8 @@ import ServiceArea from '@/components/ServiceArea';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'About Us | Gurkha Health & Services',
-  description: 'Meet our team of dedicated professionals at Gurkha Health & Services',
+  title: 'About Us | Gurkha Health ',
+  description: 'Meet our team of dedicated professionals at Gurkha Health. Learn about our mission, vision, and values that drive our compassionate care for independent living in the UK.',
 };
 
 const teamMembers = [
@@ -34,14 +34,14 @@ const AboutPage = () => {
         <section className="mb-24">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <p className="text-xs font-medium tracking-[0.2em] uppercase text-brand-500 dark:text-brand-400 mb-3">
-              About Gurkha Health Services Ltd.
+              About Gurkha Health.
             </p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-8 leading-tight">
               Compassionate care for independent living in UK.
             </h1>
             <div className="space-y-5 text-base sm:text-lg text-slate-700 dark:text-slate-100 leading-relaxed">
               <p>
-                Gurkha Health Services Ltd. is a community-focused provider of high-quality health and care support for
+                Gurkha Health is a community-focused provider of high-quality health and care support for
                 independent-living individuals. We combine professional expertise with genuine compassion to help people
                 feel safe, respected, and confident.
               </p>

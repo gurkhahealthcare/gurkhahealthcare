@@ -129,16 +129,16 @@ const ContactPage = () => {
 
                     {/* Google Map */}
                     <div className="glass-card overflow-hidden p-0">
-                        <iframe
-                            title="Gurkha Health & Services Location Map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.9476476893897!2d-0.9394!3d51.4489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876e0f3a8e7a481%3A0x1234567890ab!2s514%20Oxford%20Road%2C%20Reading%20RG30%201EG!5e0!3m2!1sen!2suk!4v1234567890"
-                            width="100%"
-                            height="400"
-                            style={{ border: 0, borderRadius: '12px' }}
-                            allowFullScreen={true}
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                        ></iframe>
+                      <iframe
+    title="Gurkha Health & Services Location Map"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17866!2d-0.9787475!3d51.4551201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1234567890"
+    width="100%"
+    height="400"
+    style={{ border: 0, borderRadius: '12px' }}
+    allowFullScreen={true}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+></iframe>
                     </div>
                 </section>
 

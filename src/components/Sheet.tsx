@@ -69,13 +69,13 @@ export default function Sheet({ open, onOpenChange, children }: SheetProps) {
         onTouchEnd={handleTouchEnd}
       >
         <div className="h-full rounded-3xl bg-slate-900/80 text-slate-50 backdrop-blur-2xl shadow-2xl border border-slate-700/80 flex flex-col overflow-hidden">
-          <div className="flex items-center justify-between px-5 pt-4 pb-4 border-b border-slate-800">
-            <div className="space-y-1">
+          <div className="relative flex items-center justify-end px-5 pt-4 pb-4 border-b border-slate-800">
+            <div className="absolute inset-x-0 mx-auto w-fit space-y-1 text-center">
               <p className="text-[11px] uppercase tracking-[0.25em] text-slate-400">
                 Menu
               </p>
               <h2 className="text-base font-semibold">
-                Gurkha Health Services Ltd
+                Gurkha Health
               </h2>
             </div>
             <button

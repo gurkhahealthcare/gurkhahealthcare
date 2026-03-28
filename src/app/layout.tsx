@@ -8,13 +8,13 @@ import { ThemeProvider } from 'next-themes';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Gurkha Health Services Ltd | Supported Living in Reading & Berkshire',
-    template: '%s | Gurkha Health Services Ltd',
+    default: 'Gurkha Health  | Supported Living in Reading and Berkshire',
+    template: '%s | Gurkha Health',
   },
   description:
-    'Gurkha Health Services Ltd provides high-quality supported living and independent living care in Reading, Berkshire and surrounding areas, specialising in learning disabilities, autism, ADHD and complex needs.',
+    'Gurkha Health Ltd provides high-quality supported living and independent living care in Reading, Berkshire and surrounding areas, specialising in learning disabilities, autism, ADHD and complex needs.',
   keywords: [
-    'Gurkha Health Services Ltd',
+    'Gurkha Health s Ltd',
     'supported living in Reading',
     'private supported living',
     'supported household',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gurkha Health Services Ltd | Supported Living & Independent Living Care',
+    title: 'Gurkha Health Ltd | Supported Living & Independent Living Care',
     description:
       'Supported living and independent living services in Reading, Berkshire and surrounding areas for adults and children with learning disabilities, autism, ADHD and complex needs.',
   },

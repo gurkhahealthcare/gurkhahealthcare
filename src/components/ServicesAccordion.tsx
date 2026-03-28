@@ -5,8 +5,7 @@ import ServiceCard from './ServiceCard';
 import { Service, type ServiceIconColor } from '@/types';
 import type { LucideIcon } from 'lucide-react';
 import {
-  HeartHandshake,
-  Activity,
+ 
   MoonStar,
   ShoppingBag,
   Sparkles,

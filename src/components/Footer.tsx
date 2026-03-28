@@ -13,25 +13,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-center md:text-left">
                     {/* Column 1: Brand & Mission */}
                     <div className="group text-center md:text-left">
-                        <div className="inline-flex flex-col items-center md:items-start rounded-2xl px-4 py-3 bg-[#6a486f] border border-[#e7a99a]/30 mb-4">
-                          <div className="flex  items-center md:flex-row md:items-start gap-3">
-                            <Image
-                                src="/logonew.png"
-                                alt="Gurkha Health Services Ltd logo"
-                                width={68}
-                                height={68}
-                                className="h-11 sm:h-12 w-auto object-contain"
-                            />
-                            <div className="flex flex-col leading-tight items-center md:items-start">
-                                <span className="text-base font-semibold tracking-tight text-[rgba(238,162,143,1)]">
-                                    Gurkha Health
-                                </span>
-                                <span className="text-xs font-semibold tracking-wide text-white">
-                                    Here when you need us most
-                                </span>
-                            </div>
-                          </div>
-                        </div>
+                      
                         <p className="text-sm text-slate-900 dark:text-white leading-relaxed">
                             Providing compassionate care for independent living with professional support and dedicated service excellence.
                         </p>
@@ -153,7 +135,7 @@ const Footer = () => {
 
                 {/* Bottom Bar */}
                 <div className="border-t border-slate-200 dark:border-slate-800 pt-8 text-center text-sm text-slate-700 dark:text-white space-y-1">
-                    <p className="font-medium">Built by <a href="https://linktr.ee/arjunpangeni">Arjun pangeni</a></p>
+                    <p className="font-medium">Built by <a href="https://linktr.ee/arjunpangeni" target="_blank">Arjun pangeni</a></p>
                     <p>&copy; {currentYear} Gurkha Health. All rights reserved.</p>
                 </div>
             </div>
