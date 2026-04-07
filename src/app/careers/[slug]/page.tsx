@@ -16,9 +16,9 @@ interface JobDetails {
 }
 
 interface Props {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: Props) {

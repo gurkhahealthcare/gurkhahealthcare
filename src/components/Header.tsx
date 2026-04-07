@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                     <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
                         <Image
                             src="/logonew.png"
-                            alt="Gurkha Health Services Ltd logo"
+                            alt="Gurkha Health logo"
                             width={68}
                             height={68}
                             className="h-11 sm:h-14 w-auto object-contain shrink-0"

@@ -122,7 +122,7 @@ const AboutPage = () => {
             <div className="relative w-full h-52 sm:h-64 md:h-72 lg:h-80 xl:h-96 rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800">
               <Image
                 src="/team1.webp"
-                alt="Gurkha Health Services Ltd. team"
+                alt="Gurkha Health team"
                 fill
                 sizes="(max-width: 768px) 100vw, 80vw"
                 className="object-contain object-center"

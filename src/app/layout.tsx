@@ -6,15 +6,21 @@ import ScrollToTop from '../components/ScrollToTop';
 import '../styles/globals.css';
 import { ThemeProvider } from 'next-themes';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gurkhahealth.co.uk';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: 'Gurkha Health  | Supported Living in Reading and Berkshire',
+    default: 'Gurkha Health | Supported Living in Reading and Berkshire',
     template: '%s | Gurkha Health',
   },
   description:
-    'Gurkha Health Ltd provides high-quality supported living and independent living care in Reading, Berkshire and surrounding areas, specialising in learning disabilities, autism, ADHD and complex needs.',
+    'Gurkha Health provides high-quality supported living and independent living care in Reading, Berkshire and surrounding areas, specialising in learning disabilities, autism, ADHD and complex needs.',
+  alternates: {
+    canonical: '/',
+  },
   keywords: [
-    'Gurkha Health s Ltd',
+    'Gurkha Health',
     'supported living in Reading',
     'private supported living',
     'supported household',
@@ -41,18 +47,28 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Gurkha Health Services Ltd | Supported Living & Independent Living Care',
+    title: 'Gurkha Health | Supported Living & Independent Living Care',
     description:
       'Supported living and independent living services in Reading, Berkshire and surrounding areas for adults and children with learning disabilities, autism, ADHD and complex needs.',
+    url: '/',
     type: 'website',
-    siteName: 'Gurkha Health Services Ltd',
+    siteName: 'Gurkha Health',
     locale: 'en_GB',
+    images: [
+      {
+        url: '/herofinal.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Gurkha Health',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gurkha Health Ltd | Supported Living & Independent Living Care',
+    title: 'Gurkha Health | Supported Living & Independent Living Care',
     description:
       'Supported living and independent living services in Reading, Berkshire and surrounding areas for adults and children with learning disabilities, autism, ADHD and complex needs.',
+    images: ['/herofinal.jpg'],
   },
   icons: {
     icon: '/favicon.ico',

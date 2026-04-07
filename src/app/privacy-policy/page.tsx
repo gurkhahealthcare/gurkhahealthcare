@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Privacy Policy | Gurkha Health & Services',
+  title: 'Privacy Policy | Gurkha Health',
   description: 'Privacy notice for Gurkha Health & Services Ltd, explaining how we collect, use, and protect your personal data in Reading and across the UK.',
 };
 
@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
         <div className="space-y-8 text-sm sm:text-base leading-relaxed text-slate-800 dark:text-slate-100">
           <section className="space-y-3">
             <p>
-              At <span className="font-semibold">Gurkha Health &amp; Services Ltd</span>, we are committed to protecting the
+              At <span className="font-semibold">Gurkha Health</span>, we are committed to protecting the
               privacy of our clients and website visitors. This notice explains how we collect,
               use, and protect your personal information in line with UK data protection law, including the UK GDPR.
             </p>
