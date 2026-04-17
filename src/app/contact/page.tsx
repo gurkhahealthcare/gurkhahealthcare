@@ -112,7 +112,8 @@ const ContactPage = () => {
                                     Gurkha Health
                                 </h3>
                                 <p className="text-slate-900 dark:text-white leading-relaxed">
-                                    Reading<br />
+                                    Office 312<br />
+                                    9 Greyfriars Road, Reading, RG1 1NU<br />
                                     United Kingdom
                                 </p>
                             </div>
@@ -131,7 +132,7 @@ const ContactPage = () => {
                     <div className="glass-card overflow-hidden p-0">
                       <iframe
     title="Gurkha Health & Services Location Map"
-    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17866!2d-0.9787475!3d51.4551201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1234567890"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.4886766127247!2d-0.9761633!3d51.4577062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48769b0e1266d613%3A0xac21c2d2d228bcd4!2sGurkha%20Health%20LTD!5e0!3m2!1sen!2suk!4v1713436800"
     width="100%"
     height="400"
     style={{ border: 0, borderRadius: '12px' }}

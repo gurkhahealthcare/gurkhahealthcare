@@ -69,6 +69,11 @@ const Footer = () => {
                                     Contact
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/faq" className="text-slate-900 dark:text-white hover:text-brand-500 dark:hover:text-brand-400 transition-colors duration-300 font-medium">
+                                    FAQ
+                                </Link>
+                            </li>
                         </ul>
                         <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700">
                             <Link

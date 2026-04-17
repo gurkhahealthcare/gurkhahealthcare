@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useTheme } from "next-themes";
+import { Sun, Moon } from "lucide-react";
 
 interface ThemeToggleProps {
   className?: string;
@@ -19,7 +20,11 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ className }) => {
       aria-label="Toggle theme"
       type="button"
     >
-      {isDark ? "☀️" : "🌙"}
+      {isDark ? (
+        <Sun className="w-5 h-5" />
+      ) : (
+        <Moon className="w-5 h-5" />
+      )}
     </button>
   );
 };
