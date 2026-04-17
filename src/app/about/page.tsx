@@ -1,5 +1,4 @@
 import TeamMember from '@/components/TeamMember';
-import ServiceArea from '@/components/ServiceArea';
 import Image from 'next/image';
 
 export const metadata = {
@@ -55,7 +54,6 @@ const AboutPage = () => {
           <div className="space-y-8 mb-16">
             <div className="rounded-2xl p-8 sm:p-10 bg-gradient-to-br from-white to-slate-50 dark:from-slate-900/50 dark:to-slate-800/50 border border-slate-200 dark:border-slate-700 backdrop-blur-sm shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-3">
-                <span className="text-brand-500 dark:text-brand-400">⸻</span>
                 Person-Centred Support
               </h2>
               <p className="text-base sm:text-lg text-slate-700 dark:text-slate-200 leading-relaxed mb-4">
@@ -69,7 +67,6 @@ const AboutPage = () => {
             {/* Promoting Independence Section */}
             <div className="rounded-2xl p-8 sm:p-10 bg-gradient-to-br from-white to-slate-50 dark:from-slate-900/50 dark:to-slate-800/50 border border-slate-200 dark:border-slate-700 backdrop-blur-sm shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
-                <span className="text-brand-500 dark:text-brand-400">⸻</span>
                 Promoting Independence and Wellbeing
               </h2>
               <p className="text-base sm:text-lg text-slate-700 dark:text-slate-200 leading-relaxed mb-6">
@@ -102,7 +99,6 @@ const AboutPage = () => {
             {/* Safe and Supportive Environment Section */}
             <div className="rounded-2xl p-8 sm:p-10 bg-gradient-to-br from-white to-slate-50 dark:from-slate-900/50 dark:to-slate-800/50 border border-slate-200 dark:border-slate-700 backdrop-blur-sm shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-3">
-                <span className="text-brand-500 dark:text-brand-400">⸻</span>
                 A Safe and Supportive Environment
               </h2>
               <p className="text-base sm:text-lg text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -111,9 +107,8 @@ const AboutPage = () => {
             </div>
 
             {/* Our Commitment Section */}
-            <div className="bg-gradient-to-r from-brand-500 via-brand-600 to-amber-500 text-white p-8 sm:p-12 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gradient-to-r from-slate-900 to-[#6a486f] text-white p-8 sm:p-12 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <h2 className="text-2xl sm:text-3xl font-bold mb-4 flex items-center gap-3">
-                <span>⸻</span>
                 Our Commitment
               </h2>
               <p className="text-base sm:text-lg leading-relaxed">
@@ -126,7 +121,7 @@ const AboutPage = () => {
         {/* Mission, vision & values - vertical stack on mobile, horizontal on desktop */}
         <section className="mb-16 md:mb-24">
           <div className="space-y-6">
-            <div className="bg-gradient-to-r from-brand-500 via-brand-600 to-amber-500 text-white p-8 sm:p-12 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-gradient-to-r from-slate-900 to-[#6a486f] text-white p-8 sm:p-12 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
               <p className="text-base sm:text-lg leading-relaxed">
                 To enable people to live independently, safely, and with dignity by delivering reliable, compassionate, and
@@ -146,23 +141,23 @@ const AboutPage = () => {
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">Our Values</h2>
                 <ul className="text-sm sm:text-base space-y-3 text-slate-700 dark:text-slate-200">
                   <li className="flex items-start gap-3">
-                    <span className="text-emerald-500 dark:text-emerald-400 font-bold text-lg flex-shrink-0 mt-0.5">✔</span>
+                    <span className="font-bold flex-shrink-0 mt-1">-</span>
                     <span>We demonstrate compassion and empathy in all interactions</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-emerald-500 dark:text-emerald-400 font-bold text-lg flex-shrink-0 mt-0.5">✔</span>
+                    <span className="font-bold flex-shrink-0 mt-1">-</span>
                     <span>We uphold the highest standards of quality and clinical excellence</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-emerald-500 dark:text-emerald-400 font-bold text-lg flex-shrink-0 mt-0.5">✔</span>
+                    <span className="font-bold flex-shrink-0 mt-1">-</span>
                     <span>We conduct ourselves with integrity, transparency, and professionalism</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-emerald-500 dark:text-emerald-400 font-bold text-lg flex-shrink-0 mt-0.5">✔</span>
+                    <span className="font-bold flex-shrink-0 mt-1">-</span>
                     <span>We deliver person-centred care tailored to individual needs</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-emerald-500 dark:text-emerald-400 font-bold text-lg flex-shrink-0 mt-0.5">✔</span>
+                    <span className="font-bold flex-shrink-0 mt-1">-</span>
                     <span>We promote respect, dignity, and cultural awareness at all times</span>
                   </li>
                 </ul>

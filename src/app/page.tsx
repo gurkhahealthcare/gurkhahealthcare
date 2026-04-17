@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ServiceArea from '@/components/ServiceArea';
-import type { LucideIcon } from 'lucide-react';
 import {
   MoonStar,
   ShoppingBag,
@@ -101,7 +100,7 @@ const SERVICES = [
 ];
 
 export const metadata = {
-  title: 'Home | Gurkha Health & Services',
+  title: 'Home | Gurkha Health ',
   description: 'Compassionate care for independent living',
 };
 
@@ -118,14 +117,10 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
             {/* Left: Content - centered on mobile */}
             <div className="order-2 lg:order-1 text-center lg:text-left">
-              <div className="inline-block mb-4 sm:mb-6">
-                <span className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-semibold bg-brand-100 dark:bg-brand-500/20 text-brand-600 dark:text-brand-400 uppercase tracking-wider">
-                  ✓ Trusted Healthcare Provider
-                </span>
-              </div>
+           
               
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-slate-900 dark:text-white mb-4 sm:mb-6 leading-tight">
-                Compassionate Care for <span className="bg-gradient-to-r from-brand-500 to-orange-500 bg-clip-text text-transparent">Independent Living</span>
+                Compassionate Care for <span className="bg-gradient-to-r from-brand-500 to-brand-600 bg-clip-text text-transparent">Independent Living</span>
               </h1>
               
               <p className="text-base sm:text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-8 sm:mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
@@ -298,7 +293,7 @@ const HomePage = () => {
 
       {/* CTA Section */}
       <section className="py-16 sm:py-20 md:py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-50 to-orange-50 dark:from-slate-900 dark:to-slate-950" />
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-50 to-brand-100 dark:from-slate-900 dark:to-slate-950" />
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
