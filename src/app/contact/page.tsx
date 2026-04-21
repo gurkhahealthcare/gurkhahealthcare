@@ -122,7 +122,7 @@ const ContactPage = () => {
                                     Service Area:
                                 </h4>
                                 <p className="text-slate-900 dark:text-white">
-                                    Reading and surrounding areas. We provide professional health and care services for independent living.
+                                    Reading and surrounding areas. 
                                 </p>
                             </div>
                         </div>
